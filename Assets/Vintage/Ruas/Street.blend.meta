@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: 47bfa6c44ea062a49879b98067ca2efc
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Plane
+    100002: Plane_002
+    100004: //RootNode
+    100006: Plane_001
+    100008: Plane_003
+    100010: Plane_004
+    100012: Cube
+    100014: Cube_001
+    100016: Cube_002
+    100018: Cube_003
+    100020: Plane_005
+    100022: Plane_006
+    100024: Plane_007
+    100026: Plane_008
+    100028: Plane_009
+    100030: Plane_010
+    100032: Plane_011
+    100034: Plane_012
+    100036: Plane_013
+    100038: Plane_014
+    100040: Plane_015
+    100042: Plane_016
+    400000: Plane
+    400002: Plane_002
+    400004: //RootNode
+    400006: Plane_001
+    400008: Plane_003
+    400010: Plane_004
+    400012: Cube
+    400014: Cube_001
+    400016: Cube_002
+    400018: Cube_003
+    400020: Plane_005
+    400022: Plane_006
+    400024: Plane_007
+    400026: Plane_008
+    400028: Plane_009
+    400030: Plane_010
+    400032: Plane_011
+    400034: Plane_012
+    400036: Plane_013
+    400038: Plane_014
+    400040: Plane_015
+    400042: Plane_016
+    2300000: Plane
+    2300002: Plane_002
+    2300004: Plane_001
+    2300006: Plane_003
+    2300008: Plane_004
+    2300010: Cube
+    2300012: Cube_001
+    2300014: Cube_002
+    2300016: Cube_003
+    2300018: Plane_005
+    2300020: Plane_006
+    2300022: Plane_007
+    2300024: Plane_008
+    2300026: Plane_009
+    2300028: Plane_010
+    2300030: Plane_011
+    2300032: Plane_012
+    2300034: Plane_013
+    2300036: Plane_014
+    2300038: Plane_015
+    2300040: Plane_016
+    3300000: Plane
+    3300002: Plane_002
+    3300004: Plane_001
+    3300006: Plane_003
+    3300008: Plane_004
+    3300010: Cube
+    3300012: Cube_001
+    3300014: Cube_002
+    3300016: Cube_003
+    3300018: Plane_005
+    3300020: Plane_006
+    3300022: Plane_007
+    3300024: Plane_008
+    3300026: Plane_009
+    3300028: Plane_010
+    3300030: Plane_011
+    3300032: Plane_012
+    3300034: Plane_013
+    3300036: Plane_014
+    3300038: Plane_015
+    3300040: Plane_016
+    4300000: Plane_002
+    4300002: Plane
+    4300004: Plane_001
+    4300006: Plane_003
+    4300008: Plane_004
+    4300010: Cube
+    4300012: Cube_001
+    4300014: Cube_003
+    4300016: Cube_002
+    4300018: Plane_007
+    4300020: Plane_006
+    4300022: Plane_005
+    4300024: Plane_016
+    4300026: Plane_015
+    4300028: Plane_014
+    4300030: Plane_013
+    4300032: Plane_012
+    4300034: Plane_011
+    4300036: Plane_010
+    4300038: Plane_009
+    4300040: Plane_008
+    6400000: Plane
+    6400002: Plane_002
+    6400004: Plane_001
+    6400006: Plane_003
+    6400008: Plane_004
+    6400010: Cube
+    6400012: Cube_001
+    6400014: Cube_002
+    6400016: Cube_003
+    6400018: Plane_005
+    6400020: Plane_006
+    6400022: Plane_007
+    6400024: Plane_008
+    6400026: Plane_009
+    6400028: Plane_010
+    6400030: Plane_011
+    6400032: Plane_012
+    6400034: Plane_013
+    6400036: Plane_014
+    6400038: Plane_015
+    6400040: Plane_016
+    7400000: Default Take
+    9500000: //RootNode
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Sidewalk01
+    second: {fileID: 2100000, guid: be3ce235138d1584e9ad2467d42a7833, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StreetCobbled01
+    second: {fileID: 2100000, guid: 78fb36bf1515ee842a171755e754fc57, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StreetCobleStone-Light
+    second: {fileID: 2100000, guid: 2dd55e4652320864d86562e94914456c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: unnamed
+    second: {fileID: 2100000, guid: 57da68d37c291b84a9a57e3244b446f3, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 35
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 35
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 40
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

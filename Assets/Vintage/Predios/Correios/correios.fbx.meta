@@ -1,0 +1,258 @@
+fileFormatVersion: 2
+guid: c910dfa713793ea49afcc2b4aae5062b
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: Camera
+    100002: //RootNode
+    100004: Plane.095
+    100006: Sun
+    100008: Text
+    400000: Camera
+    400002: //RootNode
+    400004: Plane.095
+    400006: Sun
+    400008: Text
+    2000000: Camera
+    2300000: Plane.095
+    2300002: Text
+    3300000: Plane.095
+    3300002: Text
+    4300000: Plane.095
+    4300002: Text
+    6400000: Plane.095
+    6400002: Text
+    10800000: Sun
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-BorderFloor
+    second: {fileID: 2100000, guid: 1686058059656894e94b1a71f2c35981, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-BorderSunFront
+    second: {fileID: 2100000, guid: 425146794d71817458a34f5d2368c7bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-BorderWhite
+    second: {fileID: 2100000, guid: 19828f37c5ee52f469c18c9b72ef5c83, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-Carage
+    second: {fileID: 2100000, guid: 41336024d60b3fd48a2884efe6f0b41f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-DobleDoorSide
+    second: {fileID: 2100000, guid: 2c6f153d2fd89cb489e9a5c074f9d8f6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-DoorFront
+    second: {fileID: 2100000, guid: 873343052ba036242819560363431c43, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-DoorFrontUp
+    second: {fileID: 2100000, guid: 843e55b33d736c244b87776f501f18ee, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-DoorSide
+    second: {fileID: 2100000, guid: 7c27eea82dbbf384e8b27aa5a19fd9df, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-DoorUpFrontOpen
+    second: {fileID: 2100000, guid: 6e99cf0675bf3524f9e88364da87076a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-DoorUpFrontWindowOpen
+    second: {fileID: 2100000, guid: d0bf66180809e2c46b32dc55c7a5b4bd, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-InteriorWall
+    second: {fileID: 2100000, guid: 11cccf2173e624e40a75b8dbe8472f3b, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-Roof
+    second: {fileID: 2100000, guid: 0d1f3a9bf64ad694790211e38cd1d263, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-RoofPlane
+    second: {fileID: 2100000, guid: 05876492504fdab4ba1987ccc1977950, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-StairsFront
+    second: {fileID: 2100000, guid: 8ed67fe9b33b75d48b9e9134b7a65702, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-Structure
+    second: {fileID: 2100000, guid: 5593d50e4b7b39348a08c5867b5d759e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-WhiteWall
+    second: {fileID: 2100000, guid: 9c619f94f48b2db4cacdd24d9d296ce5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-WindowFat
+    second: {fileID: 2100000, guid: 9a043faa90314bc4cb60c7f1107f67bc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-WindowFrontDown
+    second: {fileID: 2100000, guid: 103c6a59349e54043aed1e30f80eba35, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-WindowFrontHuge
+    second: {fileID: 2100000, guid: 1e48cc38c97fcfb4aa158b5c135dd991, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-WindowFrontUp
+    second: {fileID: 2100000, guid: a08dead14dd338a41896ab337db906c2, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-WindowHuge
+    second: {fileID: 2100000, guid: 9dfbaf6f8bfedef4980974a2ccf1fffc, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-WindowMiniDown
+    second: {fileID: 2100000, guid: 0e75a49869c07e54e9347081456a5d73, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-WindowNormal
+    second: {fileID: 2100000, guid: 66dd21cf76a47ed4786a83c5bbfd37e3, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-WindowNormalBlack
+    second: {fileID: 2100000, guid: 9e08b43a062196b4a80d7e170c1e9952, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-WindowNormalOpen01
+    second: {fileID: 2100000, guid: 4950b5a9d1fb53a4d813b16825f3bb46, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-WindowNormalOpen02
+    second: {fileID: 2100000, guid: 8990b2c176697824a89679c8a068486f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-WindowSideSingle
+    second: {fileID: 2100000, guid: 21d6ce3aaadcc2443a7b981173ec8142, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-WindowSunFront
+    second: {fileID: 2100000, guid: 3245f9d8fb7951442a8c5fb2b8a5ef2e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Correios-WindowTall
+    second: {fileID: 2100000, guid: 14995359ab814f149921bb88f583465f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: eaa174e75c1bf9f4caf981afb7e67303, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 4.6
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 30
+    normalImportMode: 1
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
