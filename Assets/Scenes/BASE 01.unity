@@ -73003,16 +73003,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 031eac63fe1380b4f98f8b8c084605e0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _displayName: "Banpar\xE1"
-  _description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce semper
-    mi quis ante egestas tincidunt. Integer nec lobortis felis, a condimentum justo.
-    Vestibulum id maximus lorem. Nunc venenatis ligula non lectus pulvinar, sit amet
-    scelerisque mauris sollicitudin. Fusce eget egestas metus. Quisque tincidunt nisi
-    eu ullamcorper venenatis. Pellentesque lacinia mauris id elit laoreet, sed gravida
-    dolor pretium. Suspendisse eu ex turpis. Quisque nec purus non velit rhoncus rutrum
-    et at ante. Maecenas viverra enim ut aliquet bibendum. Etiam in suscipit erat.
-    In hac habitasse platea dictumst. Sed magna nisl, suscipit a consectetur ut, venenatis
-    ut neque.
+  _so: {fileID: 11400000, guid: 3ea7bd044939c4a44bcfc636f2b062a0, type: 2}
 --- !u!1 &1466969075
 GameObject:
   m_ObjectHideFlags: 0

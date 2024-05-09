@@ -4,16 +4,15 @@ using UnityEngine;
 
 public class InteractableElement : MonoBehaviour
 {
-    [SerializeField] string _displayName = null;
-    [SerializeField, TextArea(5, 99)] string _description = null;
+    [SerializeField] InteractableElementSO _so = null;
 
     public string GetDisplayName()
     {
-        return _displayName;
+        return _so.GetDisplayName();
     }
 
     public string GetDescription()
     {
-        return _description;
+        return _so.GetDescription();
     }
 }
