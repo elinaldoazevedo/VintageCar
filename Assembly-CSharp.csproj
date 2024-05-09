@@ -317,6 +317,7 @@
      <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
      <Compile Include="Assets\Vintage\Navigation.cs" />
      <Compile Include="Assets\Vintage\Scripts\InteractableElement.cs" />
+     <Compile Include="Assets\Vintage\Scripts\PlayerInteractCounter.cs" />
      <Compile Include="Assets\Vintage\Scripts\PlayerInteractPointer.cs" />
      <None Include="Assets\PostProcessing\Resources\Shaders\DepthOfField.shader" />
      <None Include="Assets\Download Assets\NatureStarterKit2\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
