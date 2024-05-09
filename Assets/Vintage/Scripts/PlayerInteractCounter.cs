@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class PlayerInteractCounter : MonoBehaviour
 {
-    [SerializeField] PlayerInteractPointer _playerInteractPointer = null;
     [SerializeField] float _startTime = 1f;
     [SerializeField] float _interactTime = 3f;
     [Space]
@@ -13,12 +12,12 @@ public class PlayerInteractCounter : MonoBehaviour
 
     private void OnEnable()
     {
-        _playerInteractPointer.onInteractableChange += ResetTimer;
+        PlayerInteractPointer.onInteractableChange += ResetTimer;
     }
 
     private void OnDisable()
     {
-        _playerInteractPointer.onInteractableChange -= ResetTimer;
+        PlayerInteractPointer.onInteractableChange -= ResetTimer;
     }
 
     private void Update()

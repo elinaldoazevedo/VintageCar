@@ -4,5 +4,10 @@ using UnityEngine;
 
 public class InteractableElement : MonoBehaviour
 {
-    // guarda as informacoes do objeto.
+    [SerializeField] string _displayName = null;
+
+    public string GetDisplayName()
+    {
+        return _displayName;
+    }
 }
