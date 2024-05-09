@@ -51503,6 +51503,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1023369602}
   - component: {fileID: 1023369603}
+  - component: {fileID: 1023369604}
   m_Layer: 0
   m_Name: Player-Car
   m_TagString: Untagged
@@ -51543,6 +51544,20 @@ MonoBehaviour:
   _maxDistance: 100
   _radius: 0.5
   _queryTriggerInteraction: 0
+--- !u!114 &1023369604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1023369601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f654cd3dcd5b561429674689d1d591aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerSO: {fileID: 11400000, guid: 90c3d04069900de438970427fb083c48, type: 2}
+  _interactableElement: {fileID: 0}
+  _timer: 0
 --- !u!1 &1031788032
 GameObject:
   m_ObjectHideFlags: 0
@@ -92314,8 +92329,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b64425c65de27864e9f8f80f9b3696a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _playerSO: {fileID: 11400000, guid: 90c3d04069900de438970427fb083c48, type: 2}
   _pointerFill: {fileID: 44533249}
   _nameText: {fileID: 273090675}
+  _piecesCount: 3
 --- !u!1 &1883192947
 GameObject:
   m_ObjectHideFlags: 0
