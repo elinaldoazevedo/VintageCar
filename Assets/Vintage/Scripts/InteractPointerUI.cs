@@ -54,7 +54,7 @@ public class InteractPointerUI : MonoBehaviour
         do
         {
             _pointerFill.fillAmount += 0.34f;
-            float _time = _playerSO.InteractTime / _piecesCount;
+            float _time = _playerSO.InteractTime / (_piecesCount - 1);
             yield return new WaitForSeconds(_time);
 
         } while (_pointerFill.fillAmount < 1f);
