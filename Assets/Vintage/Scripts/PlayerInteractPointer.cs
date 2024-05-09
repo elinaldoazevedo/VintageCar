@@ -24,8 +24,6 @@ public class PlayerInteractPointer : MonoBehaviour
         {
             if (onInteractableChange != null)
                 onInteractableChange.Invoke(_interactableElement);
-
-            Debug.Log(_interactableElement);
         }
     }
 

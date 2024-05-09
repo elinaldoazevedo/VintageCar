@@ -11,8 +11,6 @@ public class InteractPointerUI : MonoBehaviour
     [SerializeField] TextMeshProUGUI _nameText = null;
     [SerializeField] int _piecesCount = 3;
 
-    private PlayerInteractCounter _playerInteractCounter = null;
-
     private void Awake()
     {
         ResetValues(null);
@@ -46,9 +44,8 @@ public class InteractPointerUI : MonoBehaviour
         StopAllCoroutines();
     }
 
-    private void StartFill(PlayerInteractCounter _playerCounter)
+    private void StartFill()
     {
-        _playerInteractCounter = _playerCounter;
         StartCoroutine(Fill_routine());
     }
 
@@ -57,8 +54,7 @@ public class InteractPointerUI : MonoBehaviour
         do
         {
             _pointerFill.fillAmount += 0.34f;
-            float _time = _playerSO.InteractTime / _piecesCount /** 1f*/;
-            Debug.Log(Time.time);
+            float _time = _playerSO.InteractTime / _piecesCount;
             yield return new WaitForSeconds(_time);
 
         } while (_pointerFill.fillAmount < 1f);

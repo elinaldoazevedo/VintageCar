@@ -349,6 +349,7 @@
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\VertexZoom.cs" />
      <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\WarpTextExample.cs" />
      <Compile Include="Assets\Vintage\Navigation.cs" />
+     <Compile Include="Assets\Vintage\Scripts\ElementDescriptionUI.cs" />
      <Compile Include="Assets\Vintage\Scripts\InteractableElement.cs" />
      <Compile Include="Assets\Vintage\Scripts\InteractPointerUI.cs" />
      <Compile Include="Assets\Vintage\Scripts\PlayerInteractCounter.cs" />
