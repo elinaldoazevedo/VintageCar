@@ -43,5 +43,7 @@ public class PlayerInteractCounter : MonoBehaviour
 
         if (onInteractTimeEnd != null)
             onInteractTimeEnd.Invoke(_interactableElement);
+
+        _interactableElement.Interact();
     }
 }
