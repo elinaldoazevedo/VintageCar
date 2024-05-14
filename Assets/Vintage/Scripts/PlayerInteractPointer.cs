@@ -13,7 +13,7 @@ public class PlayerInteractPointer : MonoBehaviour
     private InteractableElement _interactableElement = null;
     private RaycastHit[] _results = new RaycastHit[1];
 
-    public static System.Action<InteractableElement> onInteractableChange = null;
+    public static event System.Action<InteractableElement> onInteractableChange = null;
 
     private void Update()
     {
