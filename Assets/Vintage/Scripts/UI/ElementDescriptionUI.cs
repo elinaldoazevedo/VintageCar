@@ -13,17 +13,17 @@ public class ElementDescriptionUI : MonoBehaviour
         Hide(null);
     }
 
-    private void OnEnable()
-    {
-        PlayerInteractPointer.onInteractableChange += Hide;
-        PlayerInteractCounter.onInteractTimeEnd += Show;
-    }
+    //private void OnEnable()
+    //{
+    //    PlayerInteractPointer.onInteractableChange += Hide;
+    //    PlayerInteractCounter.onInteractTimeEnd += Show;
+    //}
 
-    private void OnDisable()
-    {
-        PlayerInteractPointer.onInteractableChange -= Hide;
-        PlayerInteractCounter.onInteractTimeEnd -= Show;
-    }
+    //private void OnDisable()
+    //{
+    //    PlayerInteractPointer.onInteractableChange -= Hide;
+    //    PlayerInteractCounter.onInteractTimeEnd -= Show;
+    //}
 
     private void Hide(InteractableElement _element)
     {

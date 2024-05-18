@@ -53,7 +53,10 @@ public class AudioHandler : Singleton<AudioHandler>
     public void StopAudioDescription()
     {
         if (_elementAudioSource.isPlaying)
-            onAudioDescriptionEnd.Invoke();
+        {
+            if (onAudioDescriptionEnd != null)
+                onAudioDescriptionEnd.Invoke();
+        }
 
         _elementAudioSource.Stop();
         StopAllCoroutines();
