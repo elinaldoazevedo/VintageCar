@@ -6,8 +6,6 @@ public class InteractableElement : MonoBehaviour
 {
     [SerializeField] InteractableElementSO _so = null;
 
-    //public InteractableElementSO So { get { return _so; } private set { _so = value; } }
-
     public event System.Action onInteracted = null;
 
     public void Interact()
@@ -19,11 +17,6 @@ public class InteractableElement : MonoBehaviour
     public string GetDisplayName()
     {
         return _so.GetDisplayName();
-    }
-
-    public string GetDescription()
-    {
-        return _so.GetDescription();
     }
 
     public AudioDescriptionModel GetDescriptionModel()
