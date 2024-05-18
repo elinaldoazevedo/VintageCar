@@ -5,6 +5,7 @@ using UnityEngine;
 public class AudioHandler : Singleton<AudioHandler>
 {
     [SerializeField] AudioSource _elementAudioSource = null;
+    [SerializeField] float _timeBetweenClips = 0.1f;
 
     private AudioClip _currentAudioDescriptionClip = null;
 
@@ -19,6 +20,35 @@ public class AudioHandler : Singleton<AudioHandler>
     private void OnDisable()
     {
         PlayerInteractPointer.onInteractableChange -= StopAudioDescription;
+    }
+
+    public void PlayAudioDescription(AudioDescriptionModel _model)
+    {
+        StopAllCoroutines();
+        StartCoroutine(AudioDescription_routine(_model));
+    }
+
+    private IEnumerator AudioDescription_routine(AudioDescriptionModel _model)
+    {
+        if (onAudioDescriptionStart != null)
+            onAudioDescriptionStart.Invoke();
+
+        int _count = _model.Clips.Length;
+
+        for (int i = 0; i < _count; i++)
+        {
+            var _clip = _model.Clips[i];
+
+            _elementAudioSource.Stop();
+            _elementAudioSource.clip = _clip;
+            _elementAudioSource.Play();
+
+            var _time = _clip.length + _timeBetweenClips;
+            yield return new WaitForSeconds(_time);
+        }
+
+        if (onAudioDescriptionEnd != null)
+            onAudioDescriptionEnd.Invoke();
     }
 
     public void PlayAudioDescription(AudioClip _audioClip)

@@ -9,10 +9,12 @@ public class InteractableElementSO : ScriptableObject
     [SerializeField] AudioClip _audioDescriptionClip = null;
     [SerializeField, TextArea(5, 99)] string _description = null;
 
-    [SerializeField] AudioClip[] _audioClips = null;
-    [SerializeField, TextArea(5, 99)] string[] _descriptionTexts = null;
+    [SerializeField] AudioDescriptionModel _audioDescriptionModel = null;
+    //[SerializeField] AudioClip[] _audioClips = null;
+    //[SerializeField, TextArea(5, 99)] string[] _descriptionTexts = null;
 
     public AudioClip AudioDescriptionClip { get { return _audioDescriptionClip; } private set { _audioDescriptionClip = value; } }
+    public AudioDescriptionModel AudioDescriptionModel { get { return _audioDescriptionModel; } set { _audioDescriptionModel = value; } }
 
     public string GetDisplayName()
     {
@@ -25,8 +27,12 @@ public class InteractableElementSO : ScriptableObject
     }
 }
 
+[System.Serializable]
 public class AudioDescriptionModel
 {
-    public AudioClip[] _clips = null;
-    public string[] _texts = null;
+    [SerializeField] AudioClip[] _clips = null;
+    [SerializeField, TextArea(5, 99)] string[] _texts = null;
+
+    public AudioClip[] Clips { get { return _clips; } set { _clips = value; } }
+    public string[] Texts { get { return _texts; } set { _texts = value; } }
 }
