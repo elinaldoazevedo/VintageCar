@@ -73231,7 +73231,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _interactableElement: {fileID: 1466795743}
-  _clip: {fileID: 8300000, guid: ae1bafa891226034f836d47312df8a61, type: 3}
 --- !u!1 &1466969075
 GameObject:
   m_ObjectHideFlags: 0
