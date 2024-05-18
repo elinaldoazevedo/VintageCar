@@ -10,6 +10,7 @@ public class AudioHandler : Singleton<AudioHandler>
     private AudioClip _currentAudioDescriptionClip = null;
 
     public static event System.Action onAudioDescriptionStart = null;
+    public static event System.Action<string> onAudioDescriptionPlay = null;
     public static event System.Action onAudioDescriptionEnd = null;
 
     private void OnEnable()
@@ -42,6 +43,11 @@ public class AudioHandler : Singleton<AudioHandler>
             _elementAudioSource.Stop();
             _elementAudioSource.clip = _clip;
             _elementAudioSource.Play();
+
+            var _subtitle = _model.Texts[i];
+
+            if (onAudioDescriptionPlay != null)
+                onAudioDescriptionPlay.Invoke(_subtitle);
 
             var _time = _clip.length + _timeBetweenClips;
             yield return new WaitForSeconds(_time);
