@@ -6,7 +6,10 @@ using UnityEngine;
 public class InteractableElementSO : ScriptableObject
 {
     [SerializeField] string _displayName = null;
+    [SerializeField] AudioClip _audioDescriptionClip = null;
     [SerializeField, TextArea(5, 99)] string _description = null;
+
+    public AudioClip AudioDescriptionClip { get { return _audioDescriptionClip; } private set { _audioDescriptionClip = value; } }
 
     public string GetDisplayName()
     {

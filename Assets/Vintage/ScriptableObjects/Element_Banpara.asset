@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Name: Element_Banpara
   m_EditorClassIdentifier: 
   _displayName: "Banpar\xE1"
+  _audioDescriptionClip: {fileID: 8300000, guid: 58e732af5116f764585785c3ca6439dd,
+    type: 3}
   _description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce semper
     mi quis ante egestas tincidunt. Integer nec lobortis felis, a condimentum justo.
     Vestibulum id maximus lorem. Nunc venenatis ligula non lectus pulvinar, sit amet
