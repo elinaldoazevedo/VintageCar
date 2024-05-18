@@ -14,11 +14,13 @@ MonoBehaviour:
   _displayName: "Banpar\xE1"
   _audioDescriptionClip: {fileID: 8300000, guid: 58e732af5116f764585785c3ca6439dd,
     type: 3}
-  _description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce semper
-    mi quis ante egestas tincidunt. Integer nec lobortis felis, a condimentum justo.
-    Vestibulum id maximus lorem. Nunc venenatis ligula non lectus pulvinar, sit amet
-    scelerisque mauris sollicitudin. Fusce eget egestas metus. Quisque tincidunt nisi
-    eu ullamcorper venenatis. Pellentesque lacinia mauris id elit laoreet, sed gravida
-    dolor pretium. Suspendisse eu ex turpis. Quisque nec purus non velit rhoncus rutrum
-    et at ante. Maecenas viverra enim ut aliquet bibendum. Etiam in suscipit erat.
-    In hac habitasse platea dictumst.
+  _description: "No in\xEDcio do s\xE9culo XX, com o crescimento da cidade e o aumento
+    do volume de correspond\xEAncias, tornou-se necess\xE1ria a constru\xE7\xE3o de
+    um pr\xE9dio dos Correios mais amplo e moderno. Assim, no final da d\xE9cada de
+    1920 ou in\xEDcio da d\xE9cada de 1930, o pr\xE9dio dos Correios em Bel\xE9m foi
+    erguido, refletindo os estilos arquitet\xF4nicos da \xE9poca.\r\n\r\nAt\xE9 1950,
+    esse pr\xE9dio provavelmente passou por algumas modifica\xE7\xF5es e melhorias
+    para atender \xE0s crescentes demandas da cidade. Se tornou n\xE3o apenas um local
+    para o processamento e distribui\xE7\xE3o de correspond\xEAncias, mas tamb\xE9m
+    um marco arquitet\xF4nico e um centro importante na vida social e econ\xF4mica
+    de Bel\xE9m."
