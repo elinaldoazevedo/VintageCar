@@ -1,4 +1,5 @@
 <center><img src="Source/Logo/Vintage_logo.png"></center>
+
 ### Importância da preservação histórica
 A preservação histórica desempenha um papel vital na conservação e na transmissão da cultura, da identidade e da memória de uma sociedade. É um processo que visa proteger e manter lugares, objetos, documentos e tradições que possuem valor histórico, cultural, arquitetônico ou social significativo. A importância da preservação histórica pode ser compreendida em diversos aspectos:
 Em primeiro lugar, a preservação histórica é essencial para garantir a continuidade e a autenticidade da história de uma comunidade ou de uma nação. Ao conservar monumentos históricos, sítios arqueológicos, documentos antigos e outras relíquias do passado, as gerações futuras têm a oportunidade de entender e apreciar as raízes e as tradições que moldaram a sociedade atual.
