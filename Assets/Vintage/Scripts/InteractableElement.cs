@@ -19,8 +19,8 @@ public class InteractableElement : MonoBehaviour
         return _so.GetDisplayName();
     }
 
-    public string GetDescription()
+    public AudioDescriptionModel GetDescriptionModel()
     {
-        return _so.GetDescription();
+        return _so.AudioDescriptionModel;
     }
 }

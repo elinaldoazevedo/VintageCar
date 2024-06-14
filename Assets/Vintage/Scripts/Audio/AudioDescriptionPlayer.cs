@@ -5,7 +5,11 @@ using UnityEngine;
 public class AudioDescriptionPlayer : MonoBehaviour
 {
     [SerializeField] InteractableElement _interactableElement = null;
-    [SerializeField] AudioClip _clip = null;
+
+    private void OnValidate()
+    {
+        _interactableElement = GetComponent<InteractableElement>();
+    }
 
     private void OnEnable()
     {
@@ -19,6 +23,6 @@ public class AudioDescriptionPlayer : MonoBehaviour
 
     public void Play()
     {
-        AudioHandler.Instance.PlayAudioDescription(_clip);
+        AudioHandler.Instance.PlayAudioDescription(_interactableElement.GetDescriptionModel());
     }
 }

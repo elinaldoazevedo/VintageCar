@@ -10,29 +10,29 @@ public class ElementDescriptionUI : MonoBehaviour
 
     private void Awake()
     {
-        Hide(null);
+        Hide();
     }
 
     private void OnEnable()
     {
-        PlayerInteractPointer.onInteractableChange += Hide;
-        PlayerInteractCounter.onInteractTimeEnd += Show;
+        AudioHandler.onAudioDescriptionPlay += Show;
+        AudioHandler.onAudioDescriptionEnd += Hide;
     }
 
     private void OnDisable()
     {
-        PlayerInteractPointer.onInteractableChange -= Hide;
-        PlayerInteractCounter.onInteractTimeEnd -= Show;
+        AudioHandler.onAudioDescriptionPlay -= Show;
+        AudioHandler.onAudioDescriptionEnd -= Hide;
     }
 
-    private void Hide(InteractableElement _element)
-    {
-        _canvasGroup.alpha = 0;
-    }
-
-    private void Show(InteractableElement _element)
+    private void Show(string _subtitle)
     {
         _canvasGroup.alpha = 1;
-        _text.text = _element.GetDescription();
+        _text.text = _subtitle;
+    }
+
+    private void Hide()
+    {
+        _canvasGroup.alpha = 0;
     }
 }
