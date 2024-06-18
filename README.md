@@ -16,7 +16,7 @@ O projeto teve seu início em 2016 dentro do curso presencial de Jogos Digitais 
 Desde então, o Vintage Car vem passando por evoluções tanto de forma gráfica quanto documental. Atualmente ele se encontra como um Projeto de Mestrado em Computação Aplicada da UFPA de Tucuruí.
 
 ### O protótipo
-A primeira versão do protótipo encontra-se disponível para download neste link (https://drive.google.com/file/d/15jqjeYCBGBloTRdOR9nl9bNGfYVQAcGE/view?usp=drive_link). Será necessário habilitar o modo desenvolvedor do aparelho para instalar e rodar a aplicação.
+A primeira versão do protótipo encontra-se disponível para download neste link (https://drive.google.com/file/d/1JDBmUiMbYnjs-xEtt0HXqTrAohG-dFll/view?usp=sharing). Será necessário habilitar o modo desenvolvedor do aparelho para instalar e rodar a aplicação.
 
 Plataforma: Android
 
