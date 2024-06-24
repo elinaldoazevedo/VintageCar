@@ -13,7 +13,7 @@
 // limitations under the License.
 
 using UnityEngine;
-using UnityEngine.VR;
+//using UnityEngine.VR;
 
 using System;
 using System.Runtime.InteropServices;
