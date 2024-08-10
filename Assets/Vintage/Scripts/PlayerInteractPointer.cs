@@ -13,7 +13,7 @@ public class PlayerInteractPointer : MonoBehaviour
     private InteractableElement _interactableElement = null;
     private RaycastHit[] _results = new RaycastHit[1];
 
-    public static event System.Action<InteractableElement> onInteractableChange = null;
+    public static event System.Action<InteractableElement> OnInteractableChange = null;
 
     private void Update()
     {
@@ -22,8 +22,8 @@ public class PlayerInteractPointer : MonoBehaviour
 
         if (_interactableElement != _lastInteractable)
         {
-            if (onInteractableChange != null)
-                onInteractableChange.Invoke(_interactableElement);
+            if (OnInteractableChange != null)
+                OnInteractableChange.Invoke(_interactableElement);
         }
     }
 

@@ -13,12 +13,12 @@ public class AudioDescriptionPlayer : MonoBehaviour
 
     private void OnEnable()
     {
-        _interactableElement.onInteracted += Play;
+        _interactableElement.OnInteracted += Play;
     }
 
     private void OnDisable()
     {
-        _interactableElement.onInteracted -= Play;
+        _interactableElement.OnInteracted -= Play;
     }
 
     public void Play()
