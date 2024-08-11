@@ -9562,8 +9562,8 @@ GameObject:
   - component: {fileID: 196255881}
   - component: {fileID: 196255880}
   - component: {fileID: 196255879}
-  - component: {fileID: 196255882}
   - component: {fileID: 196255883}
+  - component: {fileID: 196255882}
   m_Layer: 8
   m_Name: Button_Enter
   m_TagString: Untagged
@@ -9673,10 +9673,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 196255877}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3df5a4b874975bf48b5c3f201e56b999, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a30303626e90a84ca0799fc1153ffce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _so: {fileID: 11400000, guid: a7e6281ab5ad16844bfe4f957f95182d, type: 2}
+  _button: {fileID: 196255879}
 --- !u!65 &196255883
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -53686,8 +53687,8 @@ GameObject:
   - component: {fileID: 999599633}
   - component: {fileID: 999599632}
   - component: {fileID: 999599631}
-  - component: {fileID: 999599634}
   - component: {fileID: 999599635}
+  - component: {fileID: 999599634}
   m_Layer: 8
   m_Name: Button_About
   m_TagString: Untagged
@@ -53797,10 +53798,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 999599629}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031eac63fe1380b4f98f8b8c084605e0, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a30303626e90a84ca0799fc1153ffce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _so: {fileID: 11400000, guid: a7e6281ab5ad16844bfe4f957f95182d, type: 2}
+  _button: {fileID: 999599631}
 --- !u!65 &999599635
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -104320,8 +104322,9 @@ GameObject:
   - component: {fileID: 1981848154}
   - component: {fileID: 1981848153}
   - component: {fileID: 1981848152}
-  - component: {fileID: 1981848155}
   - component: {fileID: 1981848156}
+  - component: {fileID: 1981848155}
+  - component: {fileID: 1981848157}
   m_Layer: 8
   m_Name: Button_Quit
   m_TagString: Untagged
@@ -104386,7 +104389,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1981848153}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1981848157}
+        m_MethodName: Quit
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1981848153
@@ -104431,10 +104445,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 1981848150}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 031eac63fe1380b4f98f8b8c084605e0, type: 3}
+  m_Script: {fileID: 11500000, guid: 8a30303626e90a84ca0799fc1153ffce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _so: {fileID: 11400000, guid: a7e6281ab5ad16844bfe4f957f95182d, type: 2}
+  _button: {fileID: 1981848152}
 --- !u!65 &1981848156
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -104447,6 +104462,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5, z: 0.1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1981848157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1981848150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 777954a64e25a3e46a845ed2499855f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1982180030
 GameObject:
   m_ObjectHideFlags: 0
