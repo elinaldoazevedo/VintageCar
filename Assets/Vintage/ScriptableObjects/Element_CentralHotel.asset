@@ -14,16 +14,9 @@ MonoBehaviour:
   _displayName: Central Hotel
   _audioDescriptionModel:
     _clips:
-    - {fileID: 8300000, guid: 58e732af5116f764585785c3ca6439dd, type: 3}
-    - {fileID: 8300000, guid: f7cc7e7005494ca448e56a4d195862cf, type: 3}
+    - {fileID: 8300000, guid: 0badd477190e80b49aeba53c1fed866b, type: 3}
     _texts:
-    - "No in\xEDcio do s\xE9culo XX, com o crescimento da cidade e o aumento do volume
-      de correspond\xEAncias, tornou-se necess\xE1ria a constru\xE7\xE3o de um pr\xE9dio
-      dos Correios mais amplo e moderno. Assim, no final da d\xE9cada de 1920 ou in\xEDcio
-      da d\xE9cada de 1930, o pr\xE9dio dos Correios em Bel\xE9m foi erguido, refletindo
-      os estilos arquitet\xF4nicos da \xE9poca.\r"
-    - "At\xE9 1950, esse pr\xE9dio provavelmente passou por algumas modifica\xE7\xF5es
-      e melhorias para atender \xE0s crescentes demandas da cidade. Se tornou n\xE3o
-      apenas um local para o processamento e distribui\xE7\xE3o de correspond\xEAncias,
-      mas tamb\xE9m um marco arquitet\xF4nico e um centro importante na vida social
-      e econ\xF4mica de Bel\xE9m."
+    - "O pr\xE9dio do Central Hotel foi inaugurado em 1939, com linhas art d\xE9co.
+      Na d\xE9cada de 1940, o Central Caf\xE9, localizado no t\xE9rreo do hotel, foi
+      ponto de encontro de intelectuais, jornalistas, artistas e poetas que se reuniam
+      diariamente para conversar."
