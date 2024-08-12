@@ -8,8 +8,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 04f8604326b5d5449b9141a40b82af74, type: 3}
-  m_Name: Player_Data
+  m_Script: {fileID: 11500000, guid: 5584d54ac77bbb94ea4346679fd83793, type: 3}
+  m_Name: Element_Button
   m_EditorClassIdentifier: 
-  _startInteractTime: 1
-  _interactTime: 3
+  _displayName: 
+  _audioDescriptionModel:
+    _clips:
+    - {fileID: 8300000, guid: 1092bf4d7d12aa441ad10818fcbab240, type: 3}
+    _texts: []

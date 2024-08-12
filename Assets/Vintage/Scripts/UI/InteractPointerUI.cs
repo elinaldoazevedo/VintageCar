@@ -18,13 +18,13 @@ public class InteractPointerUI : MonoBehaviour
 
     private void OnEnable()
     {
-        PlayerInteractPointer.onInteractableChange += ResetValues;
+        PlayerInteractPointer.OnInteractableChange += ResetValues;
         PlayerInteractCounter.onInteractTimeStarted += StartFill;
     }
 
     private void OnDisable()
     {
-        PlayerInteractPointer.onInteractableChange -= ResetValues;
+        PlayerInteractPointer.OnInteractableChange -= ResetValues;
         PlayerInteractCounter.onInteractTimeStarted -= StartFill;
     }
 

@@ -13,12 +13,12 @@ public class PlayerInteractCounter : MonoBehaviour
 
     private void OnEnable()
     {
-        PlayerInteractPointer.onInteractableChange += StartCounter;
+        PlayerInteractPointer.OnInteractableChange += StartCounter;
     }
 
     private void OnDisable()
     {
-        PlayerInteractPointer.onInteractableChange -= StartCounter;
+        PlayerInteractPointer.OnInteractableChange -= StartCounter;
     }
 
     private void StartCounter(InteractableElement _element)

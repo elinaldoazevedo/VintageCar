@@ -13,12 +13,12 @@ public class AudioHandler : Singleton<AudioHandler>
 
     private void OnEnable()
     {
-        PlayerInteractPointer.onInteractableChange += StopAudioDescription;
+        PlayerInteractPointer.OnInteractableChange += StopAudioDescription;
     }
 
     private void OnDisable()
     {
-        PlayerInteractPointer.onInteractableChange -= StopAudioDescription;
+        PlayerInteractPointer.OnInteractableChange -= StopAudioDescription;
     }
 
     public void PlayAudioDescription(AudioDescriptionModel _model)
