@@ -9564,7 +9564,6 @@ GameObject:
   - component: {fileID: 196255879}
   - component: {fileID: 196255883}
   - component: {fileID: 196255882}
-  - component: {fileID: 196255884}
   - component: {fileID: 196255885}
   m_Layer: 8
   m_Name: Button_Enter
@@ -9703,18 +9702,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5, z: 0.1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &196255884
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 196255877}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2eeab27b1ecaf6b42ac2a864eea29bbe, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _loadScene: Game
 --- !u!114 &196255885
 MonoBehaviour:
   m_ObjectHideFlags: 0
