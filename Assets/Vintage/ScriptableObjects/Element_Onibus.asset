@@ -9,12 +9,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 5584d54ac77bbb94ea4346679fd83793, type: 3}
-  m_Name: Element_Banpara
+  m_Name: Element_Onibus
   m_EditorClassIdentifier: 
-  _displayName: "Banpar\xE1"
+  _displayName: "\xD4nibus Zeppelin"
   _audioDescriptionModel:
     _clips:
-    - {fileID: 8300000, guid: 94cb408db53f77247bde738ce146114a, type: 3}
+    - {fileID: 8300000, guid: 82136806e4681d84e9498958d71c9b74, type: 3}
     _texts:
     - "No in\xEDcio do s\xE9culo XX, com o crescimento da cidade e o aumento do volume
       de correspond\xEAncias, tornou-se necess\xE1ria a constru\xE7\xE3o de um pr\xE9dio

@@ -42304,6 +42304,74 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 776704909}
   m_Mesh: {fileID: 4301224, guid: c7d8183c61074ee4cb90b42985aa87ff, type: 3}
+--- !u!1 &776800551
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 776800553}
+  - component: {fileID: 776800552}
+  - component: {fileID: 776800555}
+  - component: {fileID: 776800554}
+  m_Layer: 8
+  m_Name: Zeppelin_Interactable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!65 &776800552
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 776800551}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4, y: 4, z: 14}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!4 &776800553
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 776800551}
+  m_LocalRotation: {x: 0.00000008083143, y: 0.12402638, z: -0.000000010103233, w: 0.99227893}
+  m_LocalPosition: {x: -2.03, y: -22.5, z: -249.15}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1469789758}
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 14.249001, z: 0}
+--- !u!114 &776800554
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 776800551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b218d0ddad88b1342a59a2810c4ca896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactableElement: {fileID: 776800555}
+--- !u!114 &776800555
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 776800551}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 031eac63fe1380b4f98f8b8c084605e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _so: {fileID: 11400000, guid: dd04079420664b147bcd90bf3414089c, type: 2}
 --- !u!1 &777949170
 GameObject:
   m_ObjectHideFlags: 0
@@ -78815,39 +78883,39 @@ Prefab:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
-    m_TransformParent: {fileID: 0}
+    m_TransformParent: {fileID: 776800553}
     m_Modifications:
     - target: {fileID: 400000, guid: bf73dbefca17b89409c0cc5d478bbe75, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -4
+      value: -0.0018270016
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf73dbefca17b89409c0cc5d478bbe75, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -22.5
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf73dbefca17b89409c0cc5d478bbe75, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -256.9
+      value: -7.9964614
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf73dbefca17b89409c0cc5d478bbe75, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.00000008083143
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf73dbefca17b89409c0cc5d478bbe75, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.12402638
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf73dbefca17b89409c0cc5d478bbe75, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000010103233
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf73dbefca17b89409c0cc5d478bbe75, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.99227893
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf73dbefca17b89409c0cc5d478bbe75, type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: bf73dbefca17b89409c0cc5d478bbe75, type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
@@ -78868,6 +78936,11 @@ Prefab:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bf73dbefca17b89409c0cc5d478bbe75, type: 3}
   m_IsPrefabAsset: 0
+--- !u!4 &1469789758 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 400000, guid: bf73dbefca17b89409c0cc5d478bbe75,
+    type: 3}
+  m_PrefabInternal: {fileID: 1469789757}
 --- !u!1 &1469797063
 GameObject:
   m_ObjectHideFlags: 0
@@ -80674,7 +80747,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1504901703}
-  m_Layer: 0
+  - component: {fileID: 1504901706}
+  - component: {fileID: 1504901705}
+  - component: {fileID: 1504901704}
+  m_Layer: 8
   m_Name: correios
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -80698,6 +80774,42 @@ Transform:
   m_Father: {fileID: 1034549630}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 104.807, z: 0}
+--- !u!114 &1504901704
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1504901702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b218d0ddad88b1342a59a2810c4ca896, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _interactableElement: {fileID: 1504901705}
+--- !u!114 &1504901705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1504901702}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 031eac63fe1380b4f98f8b8c084605e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _so: {fileID: 11400000, guid: 38df51e54a3327642b8e3840545ac645, type: 2}
+--- !u!65 &1504901706
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1504901702}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 90, y: 20, z: 30}
+  m_Center: {x: -4, y: 10, z: 0}
 --- !u!1 &1507243473
 GameObject:
   m_ObjectHideFlags: 0
@@ -84660,7 +84772,7 @@ MeshRenderer:
   m_IgnoreNormalsForChartDetection: 0
   m_ImportantGI: 0
   m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 0
+  m_SelectedEditorRenderState: 3
   m_MinimumChartSize: 4
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
