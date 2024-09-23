@@ -7,6 +7,7 @@ using UnityEngine.UI;
 public class InteractPointerUI : MonoBehaviour
 {
     [SerializeField] PlayerSO _playerSO = null;
+    [SerializeField] CanvasGroup _canvasGroup = null;
     [SerializeField] Image _pointerFill = null;
     [SerializeField] TextMeshProUGUI _nameText = null;
     [SerializeField] int _piecesCount = 3;
@@ -20,12 +21,14 @@ public class InteractPointerUI : MonoBehaviour
     {
         PlayerInteractPointer.OnInteractableChange += ResetValues;
         PlayerInteractCounter.onInteractTimeStarted += StartFill;
+        AudioHandler.onAudioDescriptionStart += AudioHandler_onAudioDescriptionStart;
     }
 
     private void OnDisable()
     {
         PlayerInteractPointer.OnInteractableChange -= ResetValues;
         PlayerInteractCounter.onInteractTimeStarted -= StartFill;
+        AudioHandler.onAudioDescriptionStart -= AudioHandler_onAudioDescriptionStart;
     }
 
     private void ResetValues(InteractableElement _element)
@@ -41,6 +44,7 @@ public class InteractPointerUI : MonoBehaviour
             _nameText.text = _element.GetDisplayName();
         }
 
+        Show();
         StopAllCoroutines();
     }
 
@@ -58,5 +62,20 @@ public class InteractPointerUI : MonoBehaviour
             yield return new WaitForSeconds(_time);
 
         } while (_pointerFill.fillAmount < 1f);
+    }
+
+    private void AudioHandler_onAudioDescriptionStart()
+    {
+        Hide();
+    }
+
+    private void Show()
+    {
+        _canvasGroup.alpha = 1;
+    }
+
+    private void Hide()
+    {
+        _canvasGroup.alpha = 0;
     }
 }

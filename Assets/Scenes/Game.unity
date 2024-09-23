@@ -13619,6 +13619,7 @@ GameObject:
   m_Component:
   - component: {fileID: 259627809}
   - component: {fileID: 259627810}
+  - component: {fileID: 259627811}
   m_Layer: 5
   m_Name: Panel_PlayerPointer_2
   m_TagString: Untagged
@@ -13659,9 +13660,21 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerSO: {fileID: 11400000, guid: 90c3d04069900de438970427fb083c48, type: 2}
+  _canvasGroup: {fileID: 259627811}
   _pointerFill: {fileID: 771102218}
   _nameText: {fileID: 334419757}
   _piecesCount: 3
+--- !u!225 &259627811
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 259627808}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &259691744
 GameObject:
   m_ObjectHideFlags: 0
@@ -54775,6 +54788,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerSO: {fileID: 11400000, guid: 90c3d04069900de438970427fb083c48, type: 2}
+  _canvasGroup: {fileID: 0}
   _pointerFill: {fileID: 54235967}
   _nameText: {fileID: 1633241637}
   _piecesCount: 3
@@ -86757,6 +86771,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerSO: {fileID: 11400000, guid: 90c3d04069900de438970427fb083c48, type: 2}
+  _canvasGroup: {fileID: 0}
   _pointerFill: {fileID: 993239417}
   _nameText: {fileID: 2070890176}
   _piecesCount: 3
@@ -87828,6 +87843,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerSO: {fileID: 11400000, guid: 90c3d04069900de438970427fb083c48, type: 2}
+  _canvasGroup: {fileID: 0}
   _pointerFill: {fileID: 323884310}
   _nameText: {fileID: 138960179}
   _piecesCount: 3
@@ -102781,6 +102797,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerSO: {fileID: 11400000, guid: 90c3d04069900de438970427fb083c48, type: 2}
+  _canvasGroup: {fileID: 0}
   _pointerFill: {fileID: 44533249}
   _nameText: {fileID: 273090675}
   _piecesCount: 3
@@ -107367,6 +107384,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _playerSO: {fileID: 11400000, guid: 90c3d04069900de438970427fb083c48, type: 2}
+  _canvasGroup: {fileID: 0}
   _pointerFill: {fileID: 1203831714}
   _nameText: {fileID: 2062620139}
   _piecesCount: 3
