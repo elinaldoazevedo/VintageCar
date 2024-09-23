@@ -55340,6 +55340,7 @@ MonoBehaviour:
   _transform: {fileID: 1427527813}
   _camera: {fileID: 1082034999}
   _forwardMultiplier: 2
+  _clampZ: 0
 --- !u!4 &988329718
 Transform:
   m_ObjectHideFlags: 0
@@ -57292,6 +57293,7 @@ MonoBehaviour:
   _transform: {fileID: 1017851077}
   _camera: {fileID: 1082034999}
   _forwardMultiplier: 0.5
+  _clampZ: 0
 --- !u!114 &1017851074
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -78802,6 +78804,7 @@ MonoBehaviour:
   _transform: {fileID: 1427527813}
   _camera: {fileID: 1082034999}
   _forwardMultiplier: 0.5
+  _clampZ: 1
 --- !u!1 &1430745077
 GameObject:
   m_ObjectHideFlags: 0
@@ -86942,6 +86945,7 @@ MonoBehaviour:
   _transform: {fileID: 1582078992}
   _camera: {fileID: 1082034999}
   _forwardMultiplier: 1
+  _clampZ: 0
 --- !u!1 &1582107407
 GameObject:
   m_ObjectHideFlags: 0
