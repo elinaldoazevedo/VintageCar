@@ -10,12 +10,14 @@ public class LoadSceneHandler : MonoBehaviour
 
     private void OnEnable()
     {
-        SceneLoader.OnLoad += SceneLoader_OnLoad;
+        SceneLoader.OnLoad += LoadScene;
+        SceneLoader.OnLoadAsync += SceneLoader_OnLoad;
     }
 
     private void OnDisable()
     {
-        SceneLoader.OnLoad -= SceneLoader_OnLoad;
+        SceneLoader.OnLoad -= LoadScene;
+        SceneLoader.OnLoadAsync -= SceneLoader_OnLoad;
     }
 
     private void SceneLoader_OnLoad(string _loadScene, string _unloadScene)
@@ -47,5 +49,10 @@ public class LoadSceneHandler : MonoBehaviour
 
         if (OnEndLoad != null)
             OnEndLoad.Invoke();
+    }
+
+    private void LoadScene(string _sceneName)
+    {
+        SceneManager.LoadScene(_sceneName);
     }
 }

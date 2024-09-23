@@ -140,7 +140,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2eeab27b1ecaf6b42ac2a864eea29bbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _loadScene: 
 --- !u!4 &314856912
 Transform:
   m_ObjectHideFlags: 0
@@ -723,7 +722,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8b3d816ad4f51a40ba15d948012903f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _loadScene: MainMenu
+  _loadScene: Game
   _unloadScene: 
   _loadOnStart: 1
 --- !u!1 &2120295644

@@ -7,8 +7,10 @@ public class SceneLoader : MonoBehaviour
     [SerializeField] string _loadScene = null;
     [SerializeField] string _unloadScene = null;
     [SerializeField] bool _loadOnStart = false;
+    [SerializeField] bool _loadAsync = true;
 
-    public static event System.Action<string, string> OnLoad = null;
+    public static event System.Action<string> OnLoad = null;
+    public static event System.Action<string, string> OnLoadAsync = null;
 
     private IEnumerator Start()
     {
@@ -22,9 +24,15 @@ public class SceneLoader : MonoBehaviour
 
     public void Load()
     {
-        if (OnLoad != null)
+        if (_loadAsync)
         {
-            OnLoad.Invoke(_loadScene, _unloadScene);
+            if (OnLoadAsync != null)
+                OnLoadAsync.Invoke(_loadScene, _unloadScene);
+        }
+        else
+        {
+            if (OnLoad != null)
+                OnLoad.Invoke(_loadScene);
         }
     }
 }
