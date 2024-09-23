@@ -11,15 +11,15 @@ public class AudioHandler : Singleton<AudioHandler>
     public static event System.Action<string> onAudioDescriptionPlay = null;
     public static event System.Action onAudioDescriptionEnd = null;
 
-    private void OnEnable()
-    {
-        PlayerInteractPointer.OnInteractableChange += StopAudioDescription;
-    }
+    //private void OnEnable()
+    //{
+    //    PlayerInteractPointer.OnInteractableChange += StopAudioDescription;
+    //}
 
-    private void OnDisable()
-    {
-        PlayerInteractPointer.OnInteractableChange -= StopAudioDescription;
-    }
+    //private void OnDisable()
+    //{
+    //    PlayerInteractPointer.OnInteractableChange -= StopAudioDescription;
+    //}
 
     public void PlayAudioDescription(AudioDescriptionModel _model)
     {
