@@ -23,6 +23,7 @@ public class AudioDescriptionPlayer : MonoBehaviour
 
     public void Play()
     {
-        AudioHandler.Instance.PlayAudioDescription(_interactableElement.GetDescriptionModel());
+        var _model = _interactableElement.GetDescriptionModel();
+        AudioHandler.Instance.PlayAudioDescription(_model);
     }
 }

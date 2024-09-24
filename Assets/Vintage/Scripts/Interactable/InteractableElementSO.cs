@@ -21,7 +21,9 @@ public class AudioDescriptionModel
 {
     [SerializeField] AudioClip[] _clips = null;
     [SerializeField, TextArea(5, 99)] string[] _texts = null;
+    private InteractableElement _element = null;
 
     public AudioClip[] Clips { get { return _clips; } set { _clips = value; } }
     public string[] Texts { get { return _texts; } set { _texts = value; } }
+    public InteractableElement Element { get { return _element; } set { _element = value; } }
 }

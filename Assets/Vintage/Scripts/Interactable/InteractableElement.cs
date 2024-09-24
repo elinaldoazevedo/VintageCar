@@ -21,6 +21,7 @@ public class InteractableElement : MonoBehaviour
 
     public virtual AudioDescriptionModel GetDescriptionModel()
     {
+        _so.AudioDescriptionModel.Element = this;
         return _so.AudioDescriptionModel;
     }
 }
