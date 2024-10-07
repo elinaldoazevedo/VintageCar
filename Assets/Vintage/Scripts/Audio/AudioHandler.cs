@@ -80,9 +80,4 @@ public class AudioHandler : Singleton<AudioHandler>
     {
         return _model != null && _element == _model.Element;
     }
-
-    //public bool IsPlaying()
-    //{
-    //    return _elementAudioSource.isPlaying;
-    //}
 }
