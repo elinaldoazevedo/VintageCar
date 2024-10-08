@@ -16,7 +16,7 @@
 // full VR Keyboard.
 
 using UnityEngine;
-using UnityEngine.VR;
+//using UnityEngine.VR;
 using System;
 using System.Runtime.InteropServices;
 

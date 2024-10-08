@@ -44,7 +44,8 @@ class MyCustomBuildProcessor : IPreprocessBuild, IPostprocessBuild
     {
         m_cardboardAddedFromCode = false;
 
-        string[] androidVrSDKs = VREditor.GetVREnabledDevicesOnTargetGroup(BuildTargetGroup.Android);
+        //string[] androidVrSDKs = VREditor.GetVREnabledDevicesOnTargetGroup(BuildTargetGroup.Android);
+        string[] androidVrSDKs = default;
 
         EditorBuildSettingsScene[] scenes = EditorBuildSettings.scenes;
 
@@ -112,7 +113,8 @@ class MyCustomBuildProcessor : IPreprocessBuild, IPostprocessBuild
         if (!m_cardboardAddedFromCode)
             return;
 
-        string[] androidVrSDKs = VREditor.GetVREnabledDevicesOnTargetGroup(BuildTargetGroup.Android);
+        //string[] androidVrSDKs = VREditor.GetVREnabledDevicesOnTargetGroup(BuildTargetGroup.Android);
+        string[] androidVrSDKs = default;
 
         // The enabled devices are modified somehow, which shoudln't happen. Abort the post build process.
         if (androidVrSDKs.Length == 0 || androidVrSDKs[androidVrSDKs.Length - 1] != VR_DEVICE_CARDBOARD)
