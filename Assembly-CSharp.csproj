@@ -372,6 +372,10 @@
     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\Pooling\ObjectPool.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
     <Compile Include="Assets\NewBehaviourScript.cs" />
+    <Compile Include="Assets\ScreenLogger\Example\Scripts\Rotator.cs" />
+    <Compile Include="Assets\ScreenLogger\ScreenLogger.cs" />
+    <Compile Include="Assets\ScreenLogger\Example\Scripts\Test.cs" />
+    <Compile Include="Assets\ScreenLogger\Example\Scripts\BouncingBall.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Download Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
@@ -418,6 +422,7 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\TAA.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
     <None Include="Assets\Download Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+    <None Include="Assets\ScreenLogger\Readme.txt" />
     <None Include="Assets\GoogleVR\Plugins\Android\proguard-gvr.txt" />
     <None Include="Assets\Download Assets\NatureStarterKit2\info.txt" />
     <None Include="Assets\Download Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />
