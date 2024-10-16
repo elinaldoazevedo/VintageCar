@@ -100,6 +100,7 @@
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\Download Assets\Utility\TimedObjectActivator.cs" />
     <Compile Include="Assets\Download Assets\Vehicles\Car\Scripts\BrakeLight.cs" />
+    <Compile Include="Assets\ScreenLogger\Example\Scripts\BouncingBall.cs" />
     <Compile Include="Assets\Download Assets\Vehicles\Aircraft\Scripts\JetParticleEffect.cs" />
     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\PageProviders\ChildrenPageProvider.cs" />
     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\ScrollEffects\MaskedTile.cs" />
@@ -150,6 +151,7 @@
     <Compile Include="Assets\Download Assets\Characters\FirstPersonCharacter\Scripts\MouseLook.cs" />
     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\ScrollEffects\BaseScrollEffect.cs" />
     <Compile Include="Assets\Vintage\Scripts\UI\ElementDescriptionUI.cs" />
+    <Compile Include="Assets\NewBehaviourScript.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudio.cs" />
     <Compile Include="Assets\Download Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\NoiseAndScratches.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\UI\GvrReticlePointer.cs" />
@@ -236,6 +238,7 @@
     <Compile Include="Assets\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Controller\Internal\IControllerProvider.cs" />
     <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoInputManager.cs" />
+    <Compile Include="Assets\ScreenLogger\ScreenLogger.cs" />
     <Compile Include="Assets\Download Assets\Vehicles\Car\Scripts\Suspension.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudioRoom.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\EventSystem\GvrPointerScrollInput.cs" />
@@ -324,6 +327,7 @@
     <Compile Include="Assets\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Controller\GvrTrackedController.cs" />
     <Compile Include="Assets\Download Assets\Utility\FOVKick.cs" />
+    <Compile Include="Assets\ScreenLogger\Example\Scripts\Rotator.cs" />
     <Compile Include="Assets\GoogleVR\Scripts\Audio\GvrAudioSoundfield.cs" />
     <Compile Include="Assets\Download Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ContrastStretch.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
@@ -334,6 +338,7 @@
     <Compile Include="Assets\Vintage\Scripts\Interactable\InteractableElementSO.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
     <Compile Include="Assets\Download Assets\Vehicles\Car\Scripts\CarUserControl.cs" />
+    <Compile Include="Assets\ScreenLogger\Example\Scripts\Test.cs" />
     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\PaginatedScrolling\ScrollEffects\FadeScrollEffect.cs" />
     <Compile Include="Assets\Download Assets\CrossPlatformInput\Scripts\CrossPlatformInputManager.cs" />
     <Compile Include="Assets\GoogleVR\Demos\Scripts\PermissionsDemo\PermissionsFlowManager.cs" />
@@ -371,11 +376,6 @@
     <Compile Include="Assets\GoogleVR\Scripts\Controller\ArmModel\GvrFollowControllerPose.cs" />
     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\Pooling\ObjectPool.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
-    <Compile Include="Assets\NewBehaviourScript.cs" />
-    <Compile Include="Assets\ScreenLogger\Example\Scripts\Rotator.cs" />
-    <Compile Include="Assets\ScreenLogger\ScreenLogger.cs" />
-    <Compile Include="Assets\ScreenLogger\Example\Scripts\Test.cs" />
-    <Compile Include="Assets\ScreenLogger\Example\Scripts\BouncingBall.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Download Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
@@ -1405,6 +1405,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.XR.Management.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Management.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.dll</HintPath>
       <Private>False</Private>
@@ -1453,10 +1457,6 @@
       <HintPath>Library\ScriptAssemblies\Unity.Services.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
       <HintPath>Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
       <Private>False</Private>
@@ -1467,6 +1467,10 @@
     </Reference>
     <Reference Include="UnityEngine.Purchasing.Codeless">
       <HintPath>Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
@@ -1489,6 +1493,14 @@
       <HintPath>Library\ScriptAssemblies\UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.XR.Management">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.Oculus.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Oculus.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="UnityEditor.Purchasing">
       <HintPath>Library\ScriptAssemblies\UnityEditor.Purchasing.dll</HintPath>
       <Private>False</Private>
@@ -1499,6 +1511,10 @@
     </Reference>
     <Reference Include="UnityEngine.Advertisements.Editor">
       <HintPath>Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.XR.Oculus">
+      <HintPath>Library\ScriptAssemblies\Unity.XR.Oculus.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
