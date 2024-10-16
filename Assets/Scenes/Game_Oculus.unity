@@ -21310,15 +21310,15 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 195713728065658011}
-        m_TargetAssemblyTypeName: UnityEngine.AI.NavMeshAgent, UnityEngine
-        m_MethodName: set_speed
-        m_Mode: 4
+      - m_Target: {fileID: 364387683}
+        m_TargetAssemblyTypeName: EnterButtonHelper, Assembly-CSharp
+        m_MethodName: Init
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
-          m_FloatArgument: 2
+          m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
@@ -21408,6 +21408,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58ee1328982adbe47bece67eefe19e08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _agent: {fileID: 195713728065658011}
+  _moveSpeed: 2
 --- !u!1 &364958826
 GameObject:
   m_ObjectHideFlags: 0
@@ -44942,7 +44944,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8b3d816ad4f51a40ba15d948012903f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _loadScene: Game
+  _loadScene: Game_Oculus
   _unloadScene: 
   _loadOnStart: 0
   _loadAsync: 0
@@ -85578,7 +85580,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1439526438
 Transform:
   m_ObjectHideFlags: 0
