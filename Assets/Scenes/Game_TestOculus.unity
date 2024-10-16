@@ -21210,6 +21210,7 @@ GameObject:
   - component: {fileID: 364387680}
   - component: {fileID: 364387679}
   - component: {fileID: 364387678}
+  - component: {fileID: 364387683}
   m_Layer: 8
   m_Name: Button_Enter
   m_TagString: Untagged
@@ -21395,6 +21396,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 364387675}
   m_CullTransparentMesh: 0
+--- !u!114 &364387683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 364387675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 58ee1328982adbe47bece67eefe19e08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &364958826
 GameObject:
   m_ObjectHideFlags: 0
@@ -62903,6 +62916,7 @@ GameObject:
   - component: {fileID: 1043944224}
   - component: {fileID: 1043944223}
   - component: {fileID: 1043944227}
+  - component: {fileID: 1043944228}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -63002,6 +63016,19 @@ MonoBehaviour:
   m_TrackingType: 0
   m_UpdateType: 0
   m_UseRelativeTransform: 0
+--- !u!114 &1043944228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1043944214}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 594245c4449519f4b97a3835bdab49f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 5
 --- !u!1 &1049166170
 GameObject:
   m_ObjectHideFlags: 0
@@ -112096,6 +112123,7 @@ GameObject:
   - component: {fileID: 1834864242}
   - component: {fileID: 1834864241}
   - component: {fileID: 1834864239}
+  - component: {fileID: 1834864243}
   m_Layer: 0
   m_Name: Main Camera_UI
   m_TagString: MainCamera
@@ -112187,6 +112215,19 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1834864243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1834864237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 594245c4449519f4b97a3835bdab49f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rotationSpeed: 5
 --- !u!1 &1834915845
 GameObject:
   m_ObjectHideFlags: 0
@@ -113030,7 +113071,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1843167155
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133908,7 +133949,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 1.33
-  m_Speed: 2
+  m_Speed: 0
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120

@@ -376,6 +376,8 @@
     <Compile Include="Assets\GoogleVR\Scripts\Controller\ArmModel\GvrFollowControllerPose.cs" />
     <Compile Include="Assets\GoogleVR\Demos\Scripts\ScrollingUIDemo\Pooling\ObjectPool.cs" />
     <Compile Include="Assets\PostProcessing\Runtime\Models\DitheringModel.cs" />
+    <Compile Include="Assets\Vintage\Scripts\UI\EnterButtonHelper.cs" />
+    <Compile Include="Assets\Vintage\Scripts\_Test\EditorCameraRotator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Download Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
