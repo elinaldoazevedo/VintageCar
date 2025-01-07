@@ -9,3 +9,4 @@ Lista de documentos:
 - Termo de Consentimento Esclarecido
 - Mapa de Empatia
 - Resultados Avaliacao
+- ObjetosMapeados_textos.txt
