@@ -11,10 +11,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/MainMenu.unity
     guid: 6a4b248b0a1d83747929237d2ea84ab5
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Game_Oculus.unity
     guid: e8c164553b282744b8f5c689aed1f8d6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Game_Cardboard.unity
     guid: 057bac5e570fafe429c7a9e95792d32a
   - enabled: 0

@@ -2,6 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class EditorCameraRotator : MonoBehaviour
 {
@@ -19,6 +20,7 @@ public class EditorCameraRotator : MonoBehaviour
     private void Update()
     {
         // Check if the right mouse button is held down
+        //if (Mouse.current.leftButton.isPressed)
         if (Input.GetMouseButton(0)) // 1 is for the right mouse button, 0 is for left
         {
             // Get mouse movement
