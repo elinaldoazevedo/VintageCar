@@ -314,6 +314,7 @@
     <None Include="Assets\PostProcessing\Resources\Shaders\TAA.cginc" />
     <None Include="Assets\PostProcessing\Resources\Shaders\AmbientOcclusion.cginc" />
     <None Include="Assets\Download Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\TwirlEffect.shader" />
+    <None Include="Assets\Fonts\jmh_typewriter_mono\Personal Use Only-User Terms Agreement.txt" />
     <None Include="Assets\ScreenLogger\Readme.txt" />
     <None Include="Assets\Download Assets\NatureStarterKit2\info.txt" />
     <None Include="Assets\Download Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\Contrast Stretch\Apply.shader" />

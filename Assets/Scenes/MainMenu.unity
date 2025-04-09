@@ -431,7 +431,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3df5a4b874975bf48b5c3f201e56b999, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _so: {fileID: 11400000, guid: a7e6281ab5ad16844bfe4f957f95182d, type: 2}
 --- !u!114 &9967258
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7020,8 +7019,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b185dc34a16a7487e99971711f86abc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pose: 1
-  armModel: {fileID: 0}
 --- !u!114 &130085094
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7034,19 +7031,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4ee199cdc1304b2090f019e4f488674, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  laserColor: {r: 1, g: 1, b: 1, a: 0}
-  laserColorEnd: {r: 1, g: 1, b: 1, a: 0}
-  maxLaserDistance: 0.75
-  allowRotation: 1
-  reticle: {fileID: 1068771296}
-  doesReticleFaceCamera:
-    alongXAxis: 1
-    alongYAxis: 1
-    alongZAxis: 1
-  controller: {fileID: 463924565}
-  lerpSpeed: 20
-  lerpThreshold: 1.5
-  reticleSortingOrder: 0
 --- !u!114 &130085095
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7059,10 +7043,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 51b65678ccdd949e9a58874d2880c0ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  raycastMode: 0
-  overridePointerCamera: {fileID: 0}
-  maxPointerDistance: 20
-  defaultReticleDistance: 20
 --- !u!1 &130136651
 GameObject:
   m_ObjectHideFlags: 0
@@ -23727,7 +23707,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &408020629
 Canvas:
   m_ObjectHideFlags: 0
@@ -28290,21 +28270,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa952cbcc0eb13d4ca558b6da550ff55, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maximumAlpha: 1
-  attachmentPrefabs:
-  - {fileID: 1000011375678268, guid: 6e5b693d0947f4a8b85a00d3965ba64c, type: 3}
-  touchPadColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-  appButtonColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-  systemButtonColor: {r: 0.078431375, g: 0.078431375, b: 0.078431375, a: 1}
-  readControllerState: 1
-  displayState:
-    batteryLevel: -1
-    batteryCharging: 0
-    clickButton: 0
-    appButton: 0
-    homeButton: 0
-    touching: 0
-    touchPos: {x: 0.5, y: 0.5}
 --- !u!23 &463924567
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -42371,7 +42336,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 0
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -42383,9 +42348,9 @@ MonoBehaviour:
   m_fontSizeMin: 0.01
   m_fontSizeMax: 40
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 514
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -42398,7 +42363,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -49990,7 +49955,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -0.2, y: -0.2}
+  m_SizeDelta: {x: -0.1, y: -0.099999994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &825748610
 MonoBehaviour:
@@ -50014,8 +49979,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Entrar
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7895d8b4380c07d40a13a8b790246c97, type: 2}
+  m_sharedMaterial: {fileID: -5107180994377888513, guid: 7895d8b4380c07d40a13a8b790246c97,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -50039,8 +50005,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.1
-  m_fontSizeBase: 0.01
+  m_fontSize: 0.05
+  m_fontSizeBase: 0.05
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0.1
@@ -53590,7 +53556,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: -0.2}
+  m_SizeDelta: {x: -0.1, y: -0.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &886300830
 MonoBehaviour:
@@ -53614,8 +53580,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Sobre o projeto
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7895d8b4380c07d40a13a8b790246c97, type: 2}
+  m_sharedMaterial: {fileID: -5107180994377888513, guid: 7895d8b4380c07d40a13a8b790246c97,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -53639,8 +53606,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.1
-  m_fontSizeBase: 0.01
+  m_fontSize: 0.05
+  m_fontSizeBase: 0.05
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0.1
@@ -61232,7 +61199,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: -0.2}
+  m_SizeDelta: {x: -0.1, y: -0.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1008313013
 MonoBehaviour:
@@ -61256,8 +61223,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: Sair
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 7895d8b4380c07d40a13a8b790246c97, type: 2}
+  m_sharedMaterial: {fileID: -5107180994377888513, guid: 7895d8b4380c07d40a13a8b790246c97,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -61281,8 +61249,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 0.1
-  m_fontSizeBase: 0.1
+  m_fontSize: 0.05
+  m_fontSizeBase: 0.05
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 0.1
@@ -64849,13 +64817,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7dcc90c2e60c4011896c7f21fc1f557, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  raycastMode: 1
-  overridePointerCamera: {fileID: 0}
-  reticleSegments: 20
-  reticleGrowthSpeed: 8
-  reticleSortingOrder: 32767
-  _pos: {x: 0, y: 0, z: 0}
-  _localPos: {x: 0, y: 0, z: 0}
 --- !u!1 &1078449041
 GameObject:
   m_ObjectHideFlags: 0
@@ -79155,7 +79116,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 0
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -79167,9 +79128,9 @@ MonoBehaviour:
   m_fontSizeMin: 0.01
   m_fontSizeMax: 40
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 514
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -79182,7 +79143,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -79687,11 +79648,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcd4baceb58cc40c98e500572bede6a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  vrModeOnly: 0
-  scrollInput:
-    inertia: 1
-    decelerationRate: 0.05
 --- !u!114 &1329750493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80267,11 +80223,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb5dd43baba2d4dc1bab789615567e3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  drawDebugRays: 0
-  raycasterEventMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  maxRaycastHits: 64
 --- !u!114 &1343403905
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -80284,11 +80235,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1156c073149742478887bb24456f32d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  globalGainDb: 0
-  occlusionMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  quality: 2
 --- !u!81 &1343403906
 AudioListener:
   m_ObjectHideFlags: 0
@@ -85970,7 +85916,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
+  m_PresetInfoIsWorld: 1
 --- !u!223 &1427527812
 Canvas:
   m_ObjectHideFlags: 0
@@ -97981,8 +97927,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b185dc34a16a7487e99971711f86abc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pose: 0
-  armModel: {fileID: 0}
 --- !u!114 &1651039366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -97995,15 +97939,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7dda4bb2d5509e44e978d2bf56e25d7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  addedElbowHeight: 0
-  addedElbowDepth: 0
-  pointerTiltAngle: 15
-  fadeDistanceFromFace: 0.32
-  tooltipMinDistanceFromFace: 0.45
-  tooltipMaxAngleFromCamera: 80
-  followGaze: 1
-  useAccelerometer: 0
-  isLockedToHead: 0
 --- !u!114 &1651039367
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98016,12 +97951,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 311793381eb9d45149dc1a422000a9fd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  laserVisual: {fileID: 130085094}
-  controllerVisual: {fileID: 463924566}
-  armModel: {fileID: 1651039366}
-  isLaserVisualEnabled: 1
-  isControllerVisualEnabled: 1
-  isVisibleWhenDisconnected: 0
 --- !u!1 &1651376617
 GameObject:
   m_ObjectHideFlags: 0
@@ -101498,7 +101427,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 0
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -101510,9 +101439,9 @@ MonoBehaviour:
   m_fontSizeMin: 0.1
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 514
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -101525,7 +101454,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -103970,7 +103899,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41251d5f89d5546bb9d8ba907686b71f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  emulatorConnectionMode: 1
 --- !u!1 &1773600099
 GameObject:
   m_ObjectHideFlags: 0
@@ -105306,11 +105234,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcd4baceb58cc40c98e500572bede6a6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  vrModeOnly: 0
-  scrollInput:
-    inertia: 1
-    decelerationRate: 0.05
 --- !u!114 &1794062931
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117451,7 +117374,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 0
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -117463,9 +117386,9 @@ MonoBehaviour:
   m_fontSizeMin: 0.1
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 514
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -117478,7 +117401,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
@@ -124300,7 +124223,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41251d5f89d5546bb9d8ba907686b71f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  emulatorConnectionMode: 1
 --- !u!1 &2079232533
 GameObject:
   m_ObjectHideFlags: 0
@@ -125639,11 +125561,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb5dd43baba2d4dc1bab789615567e3d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  drawDebugRays: 0
-  raycasterEventMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  maxRaycastHits: 64
 --- !u!114 &2092643671
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -125656,11 +125573,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1156c073149742478887bb24456f32d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  globalGainDb: 0
-  occlusionMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  quality: 2
 --- !u!81 &2092643672
 AudioListener:
   m_ObjectHideFlags: 0
@@ -126076,13 +125988,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e7dcc90c2e60c4011896c7f21fc1f557, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  raycastMode: 1
-  overridePointerCamera: {fileID: 0}
-  reticleSegments: 20
-  reticleGrowthSpeed: 8
-  reticleSortingOrder: 32767
-  _pos: {x: 0, y: 0, z: 0}
-  _localPos: {x: 0, y: 0, z: 0}
 --- !u!1 &2096955044
 GameObject:
   m_ObjectHideFlags: 0
@@ -126162,7 +126067,7 @@ MonoBehaviour:
   m_spriteAsset: {fileID: 0}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: 0
+  m_TextStyleHashCode: -1183493901
   m_overrideHtmlColors: 0
   m_faceColor:
     serializedVersion: 2
@@ -126174,9 +126079,9 @@ MonoBehaviour:
   m_fontSizeMin: 0.1
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 514
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
+  m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
   m_lineSpacing: 0
@@ -126189,7 +126094,7 @@ MonoBehaviour:
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
-  m_ActiveFontFeatures: 00000000
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
