@@ -753,7 +753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a8b3d816ad4f51a40ba15d948012903f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _loadScene: Game
+  _loadScene: Game_Cardboard
   _unloadScene: 
   _loadOnStart: 1
   _loadAsync: 1
