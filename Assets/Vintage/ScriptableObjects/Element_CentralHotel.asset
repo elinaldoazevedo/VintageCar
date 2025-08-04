@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -14,9 +15,10 @@ MonoBehaviour:
   _displayName: Central Hotel
   _audioDescriptionModel:
     _clips:
-    - {fileID: 8300000, guid: 0badd477190e80b49aeba53c1fed866b, type: 3}
+    - {fileID: 8300000, guid: 60a5498af254cc044804d7da0e195f3d, type: 3}
     _texts:
-    - "O pr\xE9dio do Central Hotel foi inaugurado em 1939, com linhas art d\xE9co.
-      Na d\xE9cada de 1940, o Central Caf\xE9, localizado no t\xE9rreo do hotel, foi
-      ponto de encontro de intelectuais, jornalistas, artistas e poetas que se reuniam
-      diariamente para conversar."
+    - "O Central Hotel de Bel\xE9m, inaugurado no fim do s\xE9culo XIX, era um dos
+      mais tradicionais da cidade. Localizado no centro hist\xF3rico, destacou-se
+      durante o ciclo da borracha por sua eleg\xE2ncia e clientela influente. Em
+      1950, ainda operava, embora com prest\xEDgio reduzido, preservando sua import\xE2ncia
+      como refer\xEAncia hoteleira e s\xEDmbolo da Belle \xC9poque amaz\xF4nica."

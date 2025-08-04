@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -14,10 +15,10 @@ MonoBehaviour:
   _displayName: "Banpar\xE1"
   _audioDescriptionModel:
     _clips:
-    - {fileID: 8300000, guid: 94cb408db53f77247bde738ce146114a, type: 3}
+    - {fileID: 8300000, guid: d469cd16d6426ab4f81e2eb9509f5b4d, type: 3}
     _texts:
     - "A constru\xE7\xE3o do pr\xE9dio do Banpar\xE1 come\xE7ou na d\xE9cada de 1950,
-      em um per\xEDodo de crescimento econ\xF4mico e urban\xEDstico em Bel\xE9m, e
-      sua inaugura\xE7\xE3o ocorreu em 1963. O pr\xE9dio \xE9 um exemplo de arquitetura
+      em um per\xEDodo de crescimento econ\xF4mico e urban\xEDstico em Bel\xE9m,
+      e sua inaugura\xE7\xE3o ocorreu em 1963. O pr\xE9dio \xE9 um exemplo de arquitetura
       modernista, com linhas retas e uma fachada imponente, representando a moderniza\xE7\xE3o
       e o progresso que Bel\xE9m vivia na \xE9poca."

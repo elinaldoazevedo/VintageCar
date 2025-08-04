@@ -4,7 +4,8 @@
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -14,10 +15,10 @@ MonoBehaviour:
   _displayName: "\xD4nibus Zeppelin"
   _audioDescriptionModel:
     _clips:
-    - {fileID: 8300000, guid: 82136806e4681d84e9498958d71c9b74, type: 3}
+    - {fileID: 8300000, guid: cb483bf4574a62548960ed2df6a95d69, type: 3}
     _texts:
     - "Os \xF4nibus dirig\xEDveis foram cria\xE7\xE3o da Via\xE7\xE3o Sul Americana,
-      de propriedade do contador do Banco Ultramarino Cl\xF3vis Ferreira Jorge & s\xF3cios.
-      Tinham carroceria de madeira, ferro e flandres, pintados externamente na cor
-      alum\xEDnio. O interior era em couro alcochoado. Em vez de cobradores, eram
-      tripulados por \"aeromo\xE7as\"."
+      de propriedade do contador do Banco Ultramarino Cl\xF3vis Ferreira Jorge &
+      s\xF3cios. Tinham carroceria de madeira, ferro e flandres, pintados externamente
+      na cor alum\xEDnio. O interior era em couro alcochoado. Em vez de cobradores,
+      eram tripulados por \"aeromo\xE7as\"."
